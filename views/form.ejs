@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form method="POST" action="/new" class="message-form">
+        <input type="text" placeholder="Type something..." name="messageText" id="user-name" required>
+        <label for="user-name">0/280</label>
+        <input type="text" placeholder="Enter your name or stay anonymous..." name="messageUser" id="user-message" required>
+        <button id="submit-button">Submit</button>
+    </form>
+  </body>
+</html>
