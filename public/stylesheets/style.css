@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 60px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -63,4 +63,36 @@ a {
   cursor: pointer;
   margin-top: 24px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+}
+
+.form-input {
+  border: none;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+#submit-button {
+  display: flex;
+  background-color: #FFF;
+  border: none;  
+  cursor: pointer;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: auto;
+  align-self: flex-start;
+  padding: 0;
+}
+
+#submit-button:hover {
+  text-decoration: underline;
 }
